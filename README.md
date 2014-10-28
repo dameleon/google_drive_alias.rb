@@ -1,6 +1,6 @@
-# GoogleDriveAlias
+# google_drive_alias
 
-TODO: Write a gem description
+google_drive gem enhancement.
 
 ## Installation
 
