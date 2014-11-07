@@ -7,8 +7,8 @@ module GoogleDrive
       rows.first
     end
 
-    define_method "append_row" do
-      row_num = self.num_rows + 1
+    define_method "append_row" do |offset=0|
+      row_num = self.num_rows + offset + 1
       return GoogleDrive::Alias::Row.new(row_num, [], rows.first, self)
     end
 
