@@ -33,6 +33,8 @@ end
 module GoogleDrive
 module Alias
   class Row
+    attr_reader :row_num
+    
     def initialize(row_num, row, header, ws)
       @row_num = row_num
       @row     = row
